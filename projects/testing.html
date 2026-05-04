@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code High Contrast Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <nav class="activity-bar">
+            <div class="top-icons">
+                <div class="icon active">📄</div>
+                <div class="icon">🔍</div>
+                <div class="icon">🌿</div>
+                <div class="icon">🐞</div>
+                <div class="icon">📦</div>
+            </div>
+            <div class="bottom-icons">
+                <div class="icon">👤</div>
+                <div class="icon">⚙️</div>
+            </div>
+        </nav>
+
+        <main class="workspace">
+            <header class="tab-bar">
+                <div class="tab active">Welcome <span class="close"></span></div>
+            </header>
+
+            <div class="welcome-container">
+                <div class="grid-layout">
+                    <section class="column">
+                        <div class="section-group">
+                            <h2>Start</h2>
+                            <ul class="link-list">
+                                <li><span class="icon-blue">📄+</span> New File...</li>
+                                <li><span class="icon-blue">📂</span> Open File...</li>
+                                <li><span class="icon-blue">📁</span> Open Folder...</li>
+                                <li><span class="icon-blue">🔗</span> Connect to...</li>
+                            </ul>
+                        </div>
+                        <div class="section-group">
+                            <h2>Recent</h2>
+                            <ul class="recent-list">
+                                <li>onyi FE <span class="path">C:\Users\HP\Desktop</span></li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="column">
+                        <h2>Walkthroughs</h2>
+                        <div class="walkthrough-card">
+                            <div class="card-header">
+                                <span class="star">★</span> 
+                                <strong>Get Started with VS Code</strong>
+                            </div>
+                            <p>Customize your editor, learn the basics, and start coding</p>
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div class="walkthrough-card simple">
+                            <span class="bulb">💡</span> Learn the Fundamentals
+                        </div>
+                    </section>
+                </div>
+
+                <footer class="welcome-footer">
+                    <label>
+                        <input type="checkbox" checked> Show welcome page on startup
+                    </label>
+                </footer>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
